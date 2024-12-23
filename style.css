@@ -1,0 +1,148 @@
+body {
+    font-family: "微軟正黑體", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn0-digiphoto.techbang.com/system/images/77194/original/718061f10c16bef49f48c837ad6c508a.jpg?1399030151');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200vh;
+    color: pink;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+}
+
+.profile {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.profile img.active {
+    opacity: 1;
+}
+
+#Korea {
+    position: absolute;
+    border: solid 5px gold;
+    top: 600px;
+    right: 135px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#Korea img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#Korea img.active {
+    opacity: 1;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    text-align: left;
+    margin-left: 10%;
+}
+
+iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.idol {
+    margin-top: 10px;
+    font-weight: bold;
+    color: blue;
+}
+
+.zodiac {
+    margin-top: 20px;
+}
+
+.zodiac input {
+    margin: 10px 0;
+}
+
+.zodiac .result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
